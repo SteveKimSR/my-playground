@@ -1,11 +1,16 @@
-feature:
- - title: ['^feat', 'feat']
+labels:
+  feature:
+    include:
+      - '\bfeat\b'
 
-fix:
- - title: 'fix'
+  fix:
+    include:
+      - '\bfix\b'
 
-test:
- - head-branch: '^test'
+  test:
+    include:
+      - '\btest\b'
 
-docs:
- - head-branch: '^docs'
+  docs:
+    include:
+      - '\bdocs\b'
