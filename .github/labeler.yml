@@ -1,0 +1,11 @@
+feature:
+ - title: ['^feat', 'feat']
+
+fix:
+ - title: 'fix'
+
+test:
+ - head-branch: '^test'
+
+docs:
+ - head-branch: '^docs'
